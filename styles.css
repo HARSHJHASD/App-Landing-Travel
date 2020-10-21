@@ -1,0 +1,80 @@
+.jumbotron{
+  background-image: url(https://wallpapershome.com/images/pages/pic_h/5114.jpg);
+  height:700px;
+  background-size: cover;
+}
+
+.logo{
+  height:100px;
+  width: 100px;
+  left:20px;
+}
+
+.featured{
+color: #ffff;
+padding-top:90px;
+}
+.finder{
+  color:black;
+}
+
+.featured .btn-default{
+  margin-top: 15px;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding-top: 4px;
+  letter-spacing:.14rem;
+  width:160px;
+  font-weight:bold;
+  color:#ffff;
+  background-color: rgba(145,82,58,0.5);
+  font-size: 1.5rem;
+}
+
+.featured .btn-default:hover{
+  background-color: rgb(145,82,58);
+}
+
+@media(min-width:480px) and (max-width:700px){
+
+.jumbotron{
+  height:410px;
+  margin:0px;
+}
+.logo{
+  width:50px;
+  height:50px;
+}
+.featured{
+  padding-top:30px;
+}
+.featured p{
+  font-size:17px;
+}
+.featured{
+  text-align: center;
+}
+}
+
+
+
+@media(max-width:400px){
+
+.jumbotron{
+  height:420px;
+  margin:0px;
+}
+.logo{
+  width:40px;
+  height:40px;
+}
+.featured{
+  padding-top:10px;
+}
+.featured p{
+  font-size:13px;
+}
+.featured{
+  text-align: center;
+}
+}
